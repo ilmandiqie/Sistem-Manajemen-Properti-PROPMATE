@@ -15,11 +15,11 @@ tailwind.config = {
     extend: {
       colors: {
         wga: {
-          50: "#F4FAF6",
-          100: "#E7F5ED",
-          500: "#35A875",
-          700: "#176B4D",
-          900: "#104B38"
+          50: "#EFF9FF",
+          100: "#DFF3FC",
+          500: "#00AEEF",
+          700: "#0079B8",
+          900: "#073B65"
         }
       }
     }
@@ -39,16 +39,13 @@ tailwind.config = {
 <!-- AUTH SCREEN -->
 <div id="auth-screen" class="fixed inset-0 z-[150] bg-wga-900 hidden">
   <div class="min-h-screen flex items-center justify-center p-5 relative overflow-hidden">
-    <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-emerald-500/20 blur-3xl"></div>
-    <div class="absolute -bottom-40 -left-20 w-96 h-96 rounded-full bg-emerald-300/10 blur-3xl"></div>
+    <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-blue-400/20 blur-3xl"></div>
+    <div class="absolute -bottom-40 -left-20 w-96 h-96 rounded-full bg-orange-400/10 blur-3xl"></div>
 
     <div class="w-full max-w-md relative">
       <div class="text-center mb-7 text-white">
-        <div class="mx-auto w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mb-4">
-          <i class="fa-solid fa-building text-3xl text-emerald-200"></i>
-        </div>
-        <h1 class="text-3xl font-bold">PROPMATE</h1>
-        <p class="text-emerald-200 text-sm mt-1 whitespace-nowrap">Manajemen Properti & Penghuni</p>
+        <img src="assets/propmate-logo.png" alt="PROPMATE" class="auth-logo">
+        <p class="text-orange-200 text-sm mt-2 whitespace-nowrap">Manajemen Properti & Penghuni</p>
       </div>
 
       <div class="bg-white rounded-3xl shadow-2xl overflow-hidden">
@@ -107,11 +104,11 @@ tailwind.config = {
     <div class="px-6 py-6 border-b border-white/10">
       <div class="flex items-center gap-3">
         <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center">
-          <i class="fa-solid fa-building text-xl text-emerald-200"></i>
+          <i class="fa-solid fa-building text-xl text-orange-200"></i>
         </div>
         <div>
           <h1 class="font-bold text-xl">PROPMATE</h1>
-          <p class="text-emerald-200 text-xs">Sistem Manajemen Properti</p>
+          <p class="text-orange-200 text-xs">Sistem Manajemen Properti</p>
         </div>
       </div>
     </div>
@@ -135,7 +132,7 @@ tailwind.config = {
     <div class="p-4">
       <div class="rounded-2xl bg-white/10 border border-white/10 p-4">
         <p id="sidebar-user-name" class="font-semibold text-sm truncate">User</p>
-        <p id="sidebar-user-role" class="text-xs text-emerald-200 mt-1">Role</p>
+        <p id="sidebar-user-role" class="text-xs text-orange-200 mt-1">Role</p>
         <button id="logout-btn" class="mt-4 w-full rounded-xl bg-white/10 hover:bg-white/15 py-2.5 text-xs font-bold">
           <i class="fa-solid fa-right-from-bracket mr-1"></i> Logout
         </button>
